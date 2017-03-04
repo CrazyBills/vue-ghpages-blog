@@ -19,8 +19,9 @@ module.exports = {
   entry: './src/main.js',
   output: {
     path: resolve('docs'),
-    publicPath: '/',
-    filename: isProd ? 'build.[chunkhash:5].js' : 'build.js'
+    publicPath: './',
+    // filename: isProd ? 'build.[chunkhash:5].js' : 'build.js'
+    filename: 'build.js'
   },
   resolve: {
     alias: {
@@ -89,7 +90,8 @@ module.exports = {
       chunksSortMode: 'dependency'
     }),
     new ExtractTextPlugin({
-      filename: isProd ? 'build.[chunkhash:5].css' : 'build.css',
+      // filename: isProd ? 'build.[chunkhash:5].css' : 'build.css',
+      filename: 'build.css',
       disable: false,
       allChunks: true
     })
