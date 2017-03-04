@@ -2,7 +2,7 @@ module.exports = {
   /**
    * Output
    */
-  blogTitle: 'Unknow Me',
+  blogTitle: 'Bill\'s Tribe',
   favicon: null,
 
   /**
