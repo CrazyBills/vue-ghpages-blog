@@ -8,7 +8,7 @@ module.exports = {
   /**
    * API
    */
-  repo: 'viko16/writings', // Which repository you stored the posts
+  repo: 'CrazyBills/vue-ghpages-blog', // Which repository you stored the posts
   path: 'posts',
   branch: 'master'
 }
