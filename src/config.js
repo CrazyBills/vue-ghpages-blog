@@ -10,5 +10,5 @@ module.exports = {
    */
   repo: 'CrazyBills/vue-ghpages-blog', // Which repository you stored the posts
   path: 'posts',
-  branch: 'master'
+  branch: 'develop'
 }
