@@ -18,7 +18,7 @@ const resolve = (...dir) => path.resolve(__dirname, ...dir)
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: resolve('dist'),
+    path: resolve('doc'),
     publicPath: '/',
     filename: isProd ? 'build.[chunkhash:5].js' : 'build.js'
   },
@@ -97,7 +97,7 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     noInfo: true,
-    contentBase: 'dist/',
+    contentBase: 'doc/',
     host: '0.0.0.0'
   },
   devtool: isProd ? false : '#eval-source-map'
